@@ -1,0 +1,69 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; 
+    flex-direction: row; */
+    background-color: blue;
+    margin: 3px;
+    padding: 1rem;
+    border: 1rem;
+}
+.dive1, .dive2, .dive3{
+    margin: 1rem;
+    padding: 2rem;
+    border: 1rem solid;
+    
+    background-color: blueviolet;
+    border-color: red green;
+    border-radius: 10rem;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid red;
+    margin-left: 45%;
+}
+.front-page{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: blueviolet;
+    font-weight: 900;
+    align-items: center;
+    text-decoration: none;
+}
+.dive5 {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    background-color: blueviolet;
+    font-weight: 900;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+}
+.contact, .about, .service, .a{
+    padding: 10px;
+    color: yellow;
+    font-size: xx-large;
+    text-decoration: none;
+}
+.logo{
+    font-size: xx-large;
+    color: red;
+    margin-left: 10px;
+}
+.button1{
+    font-weight: bolder;
+    color: blue;
+    margin-right: 50px;
+}
+.about{
+    color: green;
+    width: 30%;
+    background-color: yellow;
+}
+
